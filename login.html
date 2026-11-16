@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In | Porsche Inspired</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body data-login-page="true">
+  <header class="site-header">
+    <a class="brand" href="login.html">PORSCHE</a>
+    <div class="header-actions">
+      <a href="create-account.html" class="header-button">Create Account</a>
+    </div>
+  </header>
+
+  <main class="account-page login-page">
+    <section class="account-panel">
+      <span class="eyebrow">Welcome back</span>
+      <h1>Sign in to continue</h1>
+      <p>Enter your email and password to explore the driving experience.</p>
+
+      <form id="login-form" class="account-form">
+        <label>
+          Email Address
+          <input type="email" name="email" placeholder="name@example.com" autocomplete="email" required>
+        </label>
+        <label>
+          Password
+          <input type="password" name="password" placeholder="Enter your password" autocomplete="current-password" required>
+        </label>
+        <button class="button button-primary" type="submit">Log In</button>
+      </form>
+
+      <div class="account-links">
+        <a href="create-account.html">Don't have an account? Create one</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
